@@ -1,0 +1,2 @@
+Ce projet est une adaptation de codeigniter pour fonctionner avec TWIG
+Vérifiez base url dans config pour correspondre à votre installation de codeigniter
