@@ -13,3 +13,17 @@ Vérifiez la présence du dossier vendor à la racine et qui doit contenir
 	 le dossier:twig
 	 le dossier:mikey179
 	 le dossier:composer
+
+
+Pour recréer entièrement le projet:
+ 1- composer create-project kenjis/codeigniter-composer-installer moncodeigniter
+ 2-déplacer vous dans votre projet  cd moncodeigniter/
+ 3-php vendor/kenjis/codeigniter-ss-twig/install.php
+ 4-modifier dans application/librairies/Twg.php   
+	require_once APPPATH . '../vendor/twig/twig/lib/Twig/Autoloader.php';
+	Twig_Autoloader::register();
+ 5-Vérifier la présence du dossier system de codeigniter sinon rejouter le
+ 6-Vérfier la présence de index.php à la racine pour le point d'entrer de notre application
+ 7-si nécessaire rajouter un .htacces pour enlever index.php
+
+ 
