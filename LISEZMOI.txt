@@ -1,2 +1,15 @@
 Ce projet est une adaptation de codeigniter pour fonctionner avec TWIG
 Vérifiez base url dans config pour correspondre à votre installation de codeigniter
+
+Vous devrez avoir git et composer d'installé
+
+Voici les indications pour pouvoir tester cette installation:
+
+faites la commande :
+   composer install
+
+Vérifiez la présence du dossier vendor à la racine et qui doit contenir
+	 le dossier:kenjis
+	 le dossier:twig
+	 le dossier:mikey179
+	 le dossier:composer
